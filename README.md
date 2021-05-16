@@ -1,6 +1,7 @@
-This is a simple app built to demonstrate the use of token-based authentication. It is built using NodeJS and Express
+This is a simple app built to demonstrate the use of token-based authentication. It is built using NodeJS and Express.
+The app is deployed with corresponding frontend at [dalcyn.com](https://dalcyn.com). The frontend deployed can be found in this repo: [auth-frontend](https://github.com/asadrajput2/auth-frontend)
 
-# Tech used and their purpose
+# Tech used and its purpose
 
 1. Node (for backend)
 2. Express (for building the APIs)
@@ -27,11 +28,11 @@ To demonstrate the auth system I have created a post viewing and publishing syst
 # If you want to run this repo on your system
 
 1. Clone the repo
-   `git clone <the repo url in the address bar>`
+   - `git clone <the repo url in the address bar>`
 2. Install all the dependencies
-   `npm i`
+   - `npm i`
 3. Set up the environment variables needed
-   `.example-env` file contains the name for all the required keys
+   - `.example-env` file contains the name for all the required keys
 4. Run this command:
-   `npm run watch:dev`
-   This will transpile all the code and place in `src` folder and then start a server at port `8080`. For localhost it will be accessible at `http://localhost:8080`
+   - `npm run watch:dev`
+   - This will transpile all the code and place in `src` folder and then start a server at port `8080`. For localhost it will be accessible at `http://localhost:8080`
